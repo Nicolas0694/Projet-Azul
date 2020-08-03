@@ -1,3 +1,13 @@
+Réalisation web en pur javascript côté client et avec Socket IO, du jeu de société Azul 
+
+Ressources : https://www.trictrac.net/jeu-de-societe/azul/ressources
+
+Gestion de projet : incluant les différentes issues et fichiers .md descriptifs
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
