@@ -1,0 +1,12 @@
+.container {
+
+    align-content: center;
+}
+
+.tile {
+
+    display:inline-block;
+    border: solid;
+    width:100px;
+    height:100px;
+}

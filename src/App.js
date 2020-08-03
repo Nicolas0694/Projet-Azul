@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{Fragment} from 'react'
+import './App.css'
+import TileContainer from './TileContainer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default function App() {
+
+  return ( 
+    <Fragment>
+    <div className='container'>
+      <h2> Choisissez un type de tuile au sein d'une fabrique </h2>
+
+      <div className="factory"> 1 <TileContainer/> </div>
+      <div className="factory"> 2 <TileContainer/> </div>
+      <div className="factory"> 3 <TileContainer/> </div>
+      <div className="factory"> 4 <TileContainer/> </div>
+      <div className="factory"> 5 <TileContainer/> </div>
     </div>
-  );
-}
 
-export default App;
+  </Fragment>
+
+    );
+
+  }
+
+
+
+  
+
+
+  
+
+
+
+
+
