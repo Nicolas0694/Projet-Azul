@@ -41,6 +41,11 @@ body {
   }
 }
 
+h2 {
+
+  font-size: smaller;
+}
+
 #title-logo-container {
   width: 30 px;
   height: 30 px;
@@ -82,10 +87,16 @@ body {
 .factory {
 
   flex-direction: row;
+  
 }
 .container,.factory {
 
   border:solid;
 
+}
+
+#bottom-container {
+  width: 300 px;
+  height: 300 px;
 }
 

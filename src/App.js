@@ -1,6 +1,8 @@
 import React,{Fragment} from 'react'
 import './App.css'
 import TileContainer from './TileContainer'
+import LineMotif from './LineMotif'
+import Wall from './Wall'
 
 export default function App() {
 
@@ -15,7 +17,12 @@ export default function App() {
       <div className="factory"> 4 <TileContainer/> </div>
       <div className="factory"> 5 <TileContainer/> </div>
     </div>
-
+    <br></br>
+    <br></br>
+    <div id="bottom-container">
+      <LineMotif />
+      <Wall />
+    </div>
   </Fragment>
 
     );

@@ -1,0 +1,14 @@
+#container {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+#first-level-cell, .second-level-cell, .third-level-cell, .fourth-level-cell, .fifth-level-cell {
+    border:solid;
+    width:50px;
+    height:50px;
+}
+
+.second-level-cell,.third-level-cell, .fourth-level-cell, .fifth-level-cell {
+    display: inline-block;
+}
