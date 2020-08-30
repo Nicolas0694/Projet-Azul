@@ -83,17 +83,20 @@ h2 {
   background-color: gray;
 }
 
+#container {
+  display: inline-block;
+}
+
 
 .factory {
 
   flex-direction: row;
+  padding-right: 10px;
+  border:solid;
+  width:300px;
   
 }
-.container,.factory {
 
-  border:solid;
-
-}
 
 #bottom-container {
   width: 300 px;

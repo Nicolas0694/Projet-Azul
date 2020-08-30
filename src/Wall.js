@@ -10,10 +10,10 @@ function Wall() {
             <tbody>
                 <tr className="row">
                     <td className="tileSlot"></td>
-                    <td className="tileSlot"></td>
-                    <td className="tileSlot"></td>
-                    <td className="tileSlot"></td>
-                    <td className="tileSlot"></td>
+                    <td className="tileSlot"><img></img></td>
+                    <td className="tileSlot"><img></img></td>
+                    <td className="tileSlot"><img></img></td>
+                    <td className="tileSlot"><img></img></td>
                 </tr>
                 <tr className="row">
                     <td className="tileSlot"></td>
