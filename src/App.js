@@ -10,7 +10,7 @@ export default function App() {
     <Fragment>
       <div>
         <div id='container'>
-          <h2> Choisissez un type de tuile au sein d'une fabrique </h2>
+          
 
             <div className="factory"> 1 <TileContainer/> </div>
             <div className="factory"> 2 <TileContainer/> </div>
